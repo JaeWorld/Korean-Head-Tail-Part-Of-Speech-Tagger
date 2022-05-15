@@ -1,1 +1,1 @@
-# Korean-Head-Tail-Part-Of-Speech-Tagger
+# Korean Head-Tail TnT Part-Of-Speech-Tagger
