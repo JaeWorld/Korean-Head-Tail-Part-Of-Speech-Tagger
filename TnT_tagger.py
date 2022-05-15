@@ -51,7 +51,7 @@ def evaluate_tnt_tagger(tnt_tagger, test_data):
 
 if __name__ == "__main__":
     model_file = "model/TnT_tagger_model.pkl"
-    in_file = "corpus/test_data_tokens.txt"
+    in_file = f"corpus/{sys.argv[1]}"
     result_file = in_file[:-4] + '_tagged_result.txt'
     tnt_tagger = load_tagging_model(model_file)  # 직접 학습 대신에 model 파일 로딩
 
