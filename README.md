@@ -1,8 +1,13 @@
 # Korean Head-Tail TnT Part-Of-Speech-Tagger
 ---
+
+### > Introduction
 A TnT part-of-speech tagger model trained on Head-Tail tokenized Korean corpus.
 
+This tagger was trained with a Korean corpus consisting of 9,896,518 sentences.
 
+
+### > Metrics
 <img src="https://i.ibb.co/1Jbqpvx/TnT.png" width=300>
 
 This tagger was evaluated with a Korean corpus consisting of 30,000 sentences (397,190 Eojeols / 625,180 Tokens).
@@ -33,7 +38,7 @@ python TnT_tagger.py input_file_name.txt
 ```
 
 
-This command will create a new text file with POS-tags attached to the tokens. 
+This command will create a new text file with POS-tags attached to the tokens in the 'corpus' folder. 
 ```
 [('통합보건교육', 'NNG'), ('은', 'JX'), ('이', 'NP'), ('대학', 'NNG'), ('만의', 'JX_JKG'), ('특화된', 'VV_ETM'), ('프로그램', 'NNG'), ('이다', 'VCP_EF'), ('.', 'SF')]
 [('세계', 'NNG'), ('금융시장', 'NNG'), ('이', 'JKS'), ('극심한', 'VA_ETM'), ('공포', 'NNG'), ('에서', 'JKB'), ('잠시', 'MAG'), ('벗어났', 'VV'), ('다', 'EP_EF'), ('.', 'SF')]
