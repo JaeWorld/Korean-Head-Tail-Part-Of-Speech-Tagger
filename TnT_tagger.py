@@ -33,6 +33,7 @@ if __name__ == "__main__":
     tnt_tagger = load_tagging_model(model_file)  # 직접 학습 대신에 model 파일 로딩
 
     # Testing a sample sentence
+    print("### Sample sentence for test ###")
     sent = ['이', '정부', '가', ',', '국민', '에게', '탄핵당한', '정부', '가', '왜', '이렇', '게', '사드', '배치', '를', '서두르', '는지', '이해할', '수', '가', '없', '다', '.']
     sent_tagged = tnt_tagger.tag(sent)
     print('\n', sent, '\n-->\n', sent_tagged)
@@ -43,6 +44,6 @@ if __name__ == "__main__":
         for sent in test_data_tokens:
             sent_tagged = tnt_tagger.tag(sent)
             fout.write(str(sent_tagged)+'\n')
-            print('\n', sent, '\n-->\n', sent_tagged)
+            # print('\n', sent, '\n-->\n', sent_tagged)
 
     print(f'--- Created {result_file} ---')    
