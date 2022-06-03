@@ -6,6 +6,7 @@ A TnT part-of-speech tagger model trained on Head-Tail tokenized Korean corpus.
 
 This tagger was trained with a Korean corpus consisting of 9,896,518 sentences.
 
+Link to Korean corpus used in training: https://github.com/bufsnlp2030/BUFS-JBNUCorpus2020
 
 ### Metrics
 <img src="https://ifh.cc/g/mjVqS2.png" width=300>
