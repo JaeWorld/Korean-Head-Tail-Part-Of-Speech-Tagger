@@ -8,7 +8,7 @@ This tagger was trained with a Korean corpus consisting of 9,896,518 sentences.
 
 
 ### Metrics
-<img src="https://i.ibb.co/1Jbqpvx/TnT.png" width=300>
+<img src="https://ifh.cc/g/mjVqS2.png" width=300>
 
 This tagger was evaluated with a Korean corpus consisting of 30,000 sentences (397,190 Eojeols / 625,180 Tokens).
 
