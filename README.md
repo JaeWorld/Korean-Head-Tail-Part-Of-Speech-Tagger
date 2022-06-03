@@ -1,13 +1,13 @@
 # Korean Head-Tail TnT Part-Of-Speech-Tagger
 ---
 
-### > Introduction
+### Introduction
 A TnT part-of-speech tagger model trained on Head-Tail tokenized Korean corpus.
 
 This tagger was trained with a Korean corpus consisting of 9,896,518 sentences.
 
 
-### > Metrics
+### Metrics
 <img src="https://i.ibb.co/1Jbqpvx/TnT.png" width=300>
 
 This tagger was evaluated with a Korean corpus consisting of 30,000 sentences (397,190 Eojeols / 625,180 Tokens).
@@ -15,14 +15,14 @@ This tagger was evaluated with a Korean corpus consisting of 30,000 sentences (3
 Eventually, it showed accuracy of 97.00%, 95.49% in eojeol unit test and token unit test respectively.
 
 
-### > What is Head-Tail tokenization?
+### What is Head-Tail tokenization?
 Head-tail tokenization is a tokenization method for Korean language that separates words into two tokens: a head and a tail.
 
 This tokenization method does not segment all morphemes. Instead, it takes a simple method of separating vocabulary morphemes into heads and grammar morphemes into tails.
 
 
 
-### > How to use
+### How to use
 First, clone the repository. 
 
 Then put the Head-Tail tokenized text file you want to tag in the 'corpus' folder. The format of the data should be as follows.
